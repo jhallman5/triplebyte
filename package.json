@@ -1,0 +1,42 @@
+{
+  "name": "triplebyte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch & nodemon ./src/server.js",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhallman5/triplebyte.git"
+  },
+  "author": "John Hallman",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/jhallman5/triplebyte/issues"
+  },
+  "homepage": "https://github.com/jhallman5/triplebyte#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.2",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^5.0.0",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.9.0",
+    "webpack-notifier": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
