@@ -1,7 +1,7 @@
 const router = require('express').Router()
 const path = require('path')
 
-router.get('/initial', (req, res) => {
+router.get('/api/initial', (req, res) => {
   res.json(1)
 })
 
